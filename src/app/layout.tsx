@@ -1,4 +1,8 @@
 import type { Metadata } from 'next'
+import { Montserrat, Shizuru } from 'next/font/google'
+import './globals.css'
+
+const montserrat = Montserrat({subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'Masga',
@@ -12,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={[montserrat.className, 'bg-[#fefff3]'].join(' ')}>{children}</body>
     </html>
   )
 }
