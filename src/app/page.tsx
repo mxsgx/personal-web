@@ -33,7 +33,7 @@ export default function Home() {
         <div className="col-span-2 text-center place-self-center">
           <h1 className="text-2xl max-w-2xl leading-[1.8] mb-4"><b className="font-medium">Hello, I&apos;m Masga.</b> I&apos;m a <b className="font-medium">Back End Developer</b> with <b className="font-medium"><del>...</del> years</b> of experience. I enjoy crafting <i>sites &amp; apps</i>. My focus is <span className="text-[#ff2d20] bg-gradient-to-r from-[#ff2d20] to-red-700 bg-clip-text text-transparent font-medium">Laravel</span> and <span className="text-[#149eca] bg-gradient-to-r from-[#149eca] to-sky-700 bg-clip-text text-transparent font-medium">React</span>.</h1>
           <div className="flex gap-x-2 justify-center">
-            <div>Let&apos;s connect with me at</div>
+            <div>Let&apos;s connect</div>
             <Link href={'https://www.linkedin.com/in/masga/'} target="_blank" className="font-medium">LinkedIn</Link>
             <div>-</div>
             <Link href={'https://github.com/mxsgx'} target="_blank" className="font-medium">GitHub</Link>
